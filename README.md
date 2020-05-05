@@ -2,7 +2,7 @@
     <h1> Mongo DB backend demo </h1>
 </div>
 
-Simple MongoDB, Express.js and Node.js app for [presentation demo](https://speakerdeck.com/nyashanziramasanga/nosql-document-stores)
+Simple MongoDB, Express.js and Node.js app for [presentation demo](https://speakerdeck.com/nyashanziramasanga/nosql-document-stores) on NoSQL datastore database technology
 
 ## Getting Started
 
