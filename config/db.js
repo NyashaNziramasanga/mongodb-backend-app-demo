@@ -8,7 +8,7 @@ const connectDB = async () => {
     useUnifiedTopology: true,
   });
 
-  console.log(`🔌MongoDB Connected 🔌
+  console.log(`🔌 MongoDB Connected 🔌
 
 Host: ${con.connection.host}
 DB Name: ${con.connection.name}
