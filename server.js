@@ -26,10 +26,8 @@ app.get('/students', (req, res) => {
   });
 });
 
-// Create a student
+// Create a student in mongoDB
 app.post('/students', (req, res, next) => {
-  console.log(req.body);
-
   Students.create(req.body).then((student) => {
     res.send({
       success: true,
