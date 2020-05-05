@@ -13,8 +13,12 @@ connectDB();
 
 const app = express();
 
-app.get('/students/get', (req, res) => {
-  Students.find({ name: 'nash' }).then((student) => {
+// Body parser
+app.use(express.json());
+
+// Retrieves all students from mongoDB
+app.get('/students', (req, res) => {
+  Students.find().then((student) => {
     res.send({
       success: true,
       student: student,
@@ -22,18 +26,17 @@ app.get('/students/get', (req, res) => {
   });
 });
 
-// app.post('/students/create', (req, res, next) => {
-//   // if (req.body === undefined) {
-//   //   console.log(undefined);
-//   // }
-//   console.log(object);
-//   Students.create(req.body).then((student) => {
-//     res.status(201).json({
-//       success: true,
-//       data: student,
-//     });
-//   });
-// });
+// Create a student
+app.post('/students', (req, res, next) => {
+  console.log(req.body);
+
+  Students.create(req.body).then((student) => {
+    res.send({
+      success: true,
+      student: student,
+    });
+  });
+});
 
 const PORT = process.env.PORT || 8000;
 
