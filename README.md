@@ -4,6 +4,8 @@
 
 Simple MongoDB, Express.js and Node.js app for [presentation demo](https://speakerdeck.com/nyashanziramasanga/nosql-document-stores)
 
+![mongoDb-demo.gif](images/mongoDb-demo.gif)
+
 ## Getting Started
 
 1. Clone repo
