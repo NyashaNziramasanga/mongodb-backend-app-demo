@@ -20,7 +20,7 @@ $ npm i
 $ npm start
 ```
 
-3. Replace MongoDB URI
+3. In `config/config.env/` add a MongoDB URI from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 4. Using postman POST/GET from the endpoint `http://localhost:8000/students`
 
