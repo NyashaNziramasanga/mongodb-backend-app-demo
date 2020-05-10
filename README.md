@@ -20,7 +20,15 @@ $ npm i
 $ npm start
 ```
 
-3. In `config/config.env/` add a MongoDB URI from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+3. In the `config` folder add a file `config.env` and add the following:
+
+```javascript
+PORT = 8000
+
+MONGO_URI=
+```
+
+Create a db on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and insert the MongoDB URI to the `config.env` file
 
 4. Using postman POST/GET from the endpoint `http://localhost:8000/students`
 
