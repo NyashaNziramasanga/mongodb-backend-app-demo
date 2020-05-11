@@ -34,7 +34,7 @@ Create a db on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and insert t
 
 ## Architecture
 
-<span style="display:block;text-align:center">![demo-architecture.png](images/demo-architecture.png)</span>
+![demo-architecture.png](images/demo-architecture.png)
 
 ## Contributing
 
