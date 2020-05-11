@@ -32,6 +32,10 @@ Create a db on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and insert t
 
 4. Using postman POST/GET from the endpoint `http://localhost:8000/students`
 
+## Architecture
+
+<span style="display:block;text-align:center">![demo-architecture.png](images/demo-architecture.png)</span>
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
