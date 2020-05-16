@@ -2,7 +2,7 @@
     <h1> Mongo DB backend demo </h1>
 </div>
 
-Simple MongoDB, Express.js and Node.js app for [presentation demo](https://speakerdeck.com/nyashanziramasanga/nosql-document-stores) on NoSQL datastore database technology
+Simple RESTful API using MongoDB, Express JS and Node JS for [presentation demo](https://speakerdeck.com/nyashanziramasanga/nosql-document-stores) to demonstrate how to CRUD operations work using a NoSQL document store database.
 
 ![mongoDb-demo.gif](images/mongoDb-demo.gif)
 
